@@ -1,0 +1,334 @@
+a:link{
+	text-decoration: none;
+}
+
+/*HEADER*/
+.header{
+	background-image: url(../img/header.jpg);
+	height: 300px;
+    width: 100%;
+}
+
+.header .judul{
+	color: #FFFFFF;
+	padding-left: 20px;
+	float: left;
+	width: 40%;
+	font-size: 35px;
+}
+
+.header .header_atas{
+	float: right;
+	color: #FFF;
+	margin-top: 10px;
+}
+
+.header .header_atas a{
+	color: #FFF;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+.header .header_atas .dropdown {
+	float: left;
+}
+
+.header .header_atas .content{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: none;
+}
+
+.header .header_atas .dropdown:hover .content{
+	display: block;
+	background-color: #FAF9FA;
+	border-radius: 6px;
+	color: #000;
+}
+
+.header .space{
+	float: top;
+	height: 277.5px;
+}
+
+.header .header_bawah{
+	float: right;
+	background-color: #77c7bf;
+	border-radius: 8px;
+	width: 70%;
+}
+
+.header .header_bawah a{
+	color: #000;
+	margin-right: 90px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.header .search{
+	float: right;
+	margin-right: 15px
+
+}
+
+.header a {
+	font-size: 20px;
+}
+
+input[type = text]{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type = password]{
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+/*BODY*/
+.body{
+	width: 100%;
+	height: 800px;
+	background-color: #EFEFEF;
+}
+.body .menu {
+	width: 25%;
+	top: 2%;
+	height: 250px;
+	float: left;
+	text-align: center;
+	position: relative;
+	margin : 4%;
+	font-size: 80px;
+	opacity: 1;
+}
+
+.body .menu .center{
+	padding-top: 15%;
+	opacity: 0;
+}
+
+.body .menu:hover {
+	opacity: 0.3;
+}
+
+.body .menu:hover .center{
+	opacity: 1;
+}
+
+.body #Kepiting {
+	background-image: url(../img/kepiting.jpg);
+}
+
+.body #Udang {
+	background-image: url(../img/udang.jpg);
+}
+
+.body #Cumi-Cumi {
+	background-image: url(../img/cumi.jpg);
+}
+
+.body #Ikan {
+	background-image: url(../img/ikan.jpg);
+}
+
+.body #Kerang {
+	background-image: url(../img/kerang.jpg);
+}
+
+.body #Nasi {
+	background-image: url(../img/nasi.jpg);
+}
+
+.menu .center a{
+	color: #FFF;
+	opacity: 1;
+}
+
+.body #about{
+	background-image: url(../img/about.jpg);
+	height: 417px;
+	width: 625px;
+	background-position: center;
+	margin-left: 29%;
+}
+
+/*About*/
+.body .tengah{
+	padding-top: 10px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.body .tengah .judul{
+	padding-top: 5%;
+	text-align: center;
+	font-size: 30px;
+	color: #00E7C9;
+}
+
+.body .tengah p{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+/*Order*/
+.body .pesan .kiri_atas{
+	background-image: url(../img/pesan/order.jpg);
+	width: 310px;
+	height : 43px;
+	margin-left: 30px;
+}
+
+.body .pesan .cara_atas {
+	padding-top: 30px;
+	padding-left: 18%;
+}
+
+.body .pesan .cara {
+	width: 63px;
+	height: 63px;
+	float: left;
+	margin-right: 1%;
+}
+
+.body .pesan .cara h4{
+	padding-top: 50px;
+	text-align: center;
+	color: #1CBD9B;
+}
+
+.body .pesan #garis_p{
+	background-color: #B7B7B7;
+	height: 10px;
+	width: 18%;
+	margin-top: 28px;
+}
+
+.body .pesan #login{
+	background-image: url(../img/pesan/login.png);
+}
+
+.body .pesan #home{
+	background-image: url(../img/pesan/home.png);
+}
+.body .pesan #menu{
+	background-image: url(../img/pesan/menu.png);
+}
+.body .pesan #deliv{
+	background-image: url(../img/pesan/deliv.png);
+}
+
+.body .pesan .cara_bawah{
+	margin-top: 100px;
+	float: left;
+}
+
+.body .pesan .cara_bawah .kiri{
+	float: left;
+	width: 30%;
+	margin-left: 16%;
+	text-align: justify;
+	text-align-last : right;
+	margin-right: 5%;
+}
+
+.body .pesan .cara_bawah #tv {
+	background-image: url(../img/pesan/pc.png);
+	height: 119px;
+	width: 119px;
+	margin-left: 50%;
+}
+
+.body .pesan .cara_bawah #garis_t{
+	background-image: url(../img/pesan/garis_t.jpg);
+	float: left;
+	width: 122px;
+	height: 1773px;
+}
+
+
+.body .pesan .cara_bawah .kanan{
+	float: left;
+	width: 30%;
+	margin-left: 5%;
+	text-align: justify;
+}
+
+/*Contact*/
+.body .contact{
+	height: 25px;
+	width: 25px;
+	margin-left: 10px;
+}
+
+.body .contact h4{
+	margin-left: 70px;
+}
+
+.body h4{	
+	margin-left: 10px;
+}
+
+.body #fb{
+	background-image: url(../img/fb.png);
+}
+
+.body #twitter{
+	background-image: url(../img/twitter.png);
+}
+
+.body #line{
+	background-image: url(../img/line.png);
+}
+
+.body #instagram{
+	background-image: url(../img/ig.png);
+}
+
+/*BATAS BODY*/
+
+/*BOTTOM*/
+.bottom{
+	width: 100%;
+	height: 130px;
+	background-color: #2F2F2F;
+}
+
+.credits{
+	padding-top: 10px;
+	padding-left: 30px;
+	font-size: 20px;
+	color: #FFFFFF;
+	width: 30%;
+	float: left;
+}
+
+.logo{
+	float: right;
+	height: 25px;
+	width: 25px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.bottom #fb{
+	background-image: url(../img/fb.png);
+}
+
+.bottom #twitter{
+	background-image: url(../img/twitter.png);
+}
+
+.bottom #line{
+	background-image: url(../img/line.png);
+}
+
+.bottom #instagram{
+	background-image: url(../img/ig.png);
+}
